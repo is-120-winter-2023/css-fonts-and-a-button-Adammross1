@@ -100,7 +100,6 @@ body {
   font-size: 1.25rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   min-height: 90vh;
   flex-direction: column;
 }
@@ -127,14 +126,15 @@ aside {
   max-width: 70rem;
 }
 
-footer.footer p {
+footer {
   padding: 2em;
   background-color: var(--color-font);
   color: var(--color-font-white);
   margin: 0em;
   display: block;
+  width: 100%;
   box-sizing: border-box;
-  width: 100vw;
+  align-self: stretch;
   font-size: 1rem;
 }
 
