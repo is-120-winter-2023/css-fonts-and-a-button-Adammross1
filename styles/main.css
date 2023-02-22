@@ -183,12 +183,12 @@ ul {
   list-style: none;
 }
 
-a:link {
+a[href]:link {
   color: var(--dark-blue);
   text-decoration: none;
 }
 
-a:visited {
+a[href]:visited {
   color: var(--seafoam);
   text-decoration: none;
 }
